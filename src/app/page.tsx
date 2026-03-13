@@ -58,7 +58,7 @@ export default function LandingPage() {
             { text: "Позвонить", href: "tel:+73412330191" }
           ]}
           buttonAnimation="slide-up"
-          imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=4wwhx5"
+          imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AqS3bwyik7EeqFZphOIzumak2j/uploaded-1773402056644-ey3bqii0.jpg"
           imageAlt="Салон красоты Премудрая"
           mediaAnimation="blur-reveal"
           imagePosition="right"
@@ -163,16 +163,16 @@ export default function LandingPage() {
           animationType="scale-rotate"
           metrics={[
             {
-              id: "1",              value: "Маникюр",              title: "Гель лак дизайн",              description: "Профессиональная работа опытного мастера",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=9i54eq",              imageAlt: "Маникюр до и после"
+              id: "1",              value: "Маникюр",              title: "Гель лак дизайн",              description: "Профессиональная работа опытного мастера",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AqS3bwyik7EeqFZphOIzumak2j/uploaded-1773401600697-pxddgo4k.jpg",              imageAlt: "Маникюр до и после"
             },
             {
-              id: "2",              value: "Парикмахер",              title: "Стрижка и укладка",              description: "Стильная трансформация прически",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=z291t2",              imageAlt: "Прическа до и после"
+              id: "2",              value: "Парикмахер",              title: "Стрижка и укладка",              description: "Стильная трансформация прически",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AqS3bwyik7EeqFZphOIzumak2j/uploaded-1773401656455-1lyfh3uy.jpg",              imageAlt: "Прическа до и после"
             },
             {
-              id: "3",              value: "Салон",              title: "Интерьер",              description: "Современное оборудование и уютная атмосфера",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=jy7vcg",              imageAlt: "Интерьер салона"
+              id: "3",              value: "Брови",              title: "Интерьер",              description: "Современное оборудование и уютная атмосфера",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AqS3bwyik7EeqFZphOIzumak2j/uploaded-1773401764118-t4zhrgb2.jpg",              imageAlt: "Интерьер салона"
             },
             {
-              id: "4",              value: "Услуги",              title: "Релаксация",              description: "Зона отдыха для комфорта клиентов",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=1jzk6y",              imageAlt: "Зона массажа и отдыха"
+              id: "4",              value: "Массаж ",              title: "Релаксация",              description: "Зона отдыха для комфорта клиентов",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AqS3bwyik7EeqFZphOIzumak2j/uploaded-1773401799450-c7sieagq.jpg",              imageAlt: "Зона массажа и отдыха"
             }
           ]}
         />
@@ -189,19 +189,19 @@ export default function LandingPage() {
           showRating={true}
           testimonials={[
             {
-              id: "1",              name: "Элла Кацнеллгогенн",              handle: "@ella_k",              testimonial: "Салон довольно молодой, но в нём всё продумано. Очень удобная локация и приятная атмосфера. Мастера настоящие профессионалы своего дела!",              rating: 5,              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=pxvt54",              imageAlt: "Элла"
+              id: "1",              name: "Элла Кацнеллгогенн",              handle: "@ella_k",              testimonial: "Салон довольно молодой, но в нём всё продумано. Очень удобная локация и приятная атмосфера. Мастера настоящие профессионалы своего дела!",              rating: 5,              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AqS3bwyik7EeqFZphOIzumak2j/uploaded-1773402222382-dng4yxe4.jpg",              imageAlt: "Элла"
             },
             {
-              id: "2",              name: "Зарина",              handle: "@zarina_beauty",              testimonial: "Очень приятный сервис! Мастер была внимательна и создала расслабляющую атмосферу. Результат превзошел мои ожидания!",              rating: 5,              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=3ydx7b",              imageAlt: "Зарина"
+              id: "2",              name: "Зарина",              handle: "@zarina_beauty",              testimonial: "Очень приятный сервис! Мастер была внимательна и создала расслабляющую атмосферу. Результат превзошел мои ожидания!",              rating: 5,              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AqS3bwyik7EeqFZphOIzumak2j/uploaded-1773402242476-llnq0352.jpg",              imageAlt: "Зарина"
             },
             {
-              id: "3",              name: "Анна Мехоношина",              handle: "@anna_m",              testimonial: "Хочу выразить огромную благодарность мастеру Дарье. Настоящий профессионал своего дела. Буду приходить только сюда!",              rating: 5,              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=oni624",              imageAlt: "Анна"
+              id: "3",              name: "Анна Мехоношина",              handle: "@anna_m",              testimonial: "Хочу выразить огромную благодарность мастеру Дарье. Настоящий профессионал своего дела. Буду приходить только сюда!",              rating: 5,              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AqS3bwyik7EeqFZphOIzumak2j/uploaded-1773402253720-wwvgwu4c.jpg",              imageAlt: "Анна"
             },
             {
-              id: "4",              name: "Ульяна",              handle: "@ulyana_style",              testimonial: "Люблю этот салон! Особенно массаж у мастера Татьяны и оформление бровей. Каждый раз выходу с улыбкой!",              rating: 5,              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=kahcu6",              imageAlt: "Ульяна"
+              id: "4",              name: "Ульяна",              handle: "@ulyana_style",              testimonial: "Люблю этот салон! Особенно массаж у мастера Татьяны и оформление бровей. Каждый раз выходу с улыбкой!",              rating: 5,              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AqS3bwyik7EeqFZphOIzumak2j/uploaded-1773402265702-vor49coo.jpg",              imageAlt: "Ульяна"
             },
             {
-              id: "5",              name: "Полина",              handle: "@polina_nails",              testimonial: "Регулярно хожу на маникюр к мастеру Томиле. Сервис и качество всегда на высоте. Рекомендую всем подругам!",              rating: 5,              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=ey9pqq",              imageAlt: "Полина"
+              id: "5",              name: "Полина",              handle: "@polina_nails",              testimonial: "Регулярно хожу на маникюр к мастеру Томиле. Сервис и качество всегда на высоте. Рекомендую всем подругам!",              rating: 5,              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AqS3bwyik7EeqFZphOIzumak2j/uploaded-1773402277267-pc1rc32e.jpg",              imageAlt: "Полина"
             },
             {
               id: "6",              name: "Светлана",              handle: "@svetlana_salon",              testimonial: "Лучший салон в Ижевске! Профессионалы высокого уровня, приятная атмосфера, вежливый персонал. Спасибо большое!",              rating: 5,              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=bvhsdd",              imageAlt: "Светлана"
