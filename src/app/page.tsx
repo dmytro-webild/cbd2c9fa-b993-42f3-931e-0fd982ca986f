@@ -30,6 +30,8 @@ export default function LandingPage() {
       <div id="nav" data-section="nav">
         <NavbarStyleApple
           brandName="Премудрая"
+          logoSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AqS3bwyik7EeqFZphOIzumak2j/uploaded-1773411306187-v0i3w8ex.jpg"
+          logoAlt="Премудрая Logo"
           navItems={[
             { name: "Услуги", id: "services" },
             { name: "О нас", id: "about" },
