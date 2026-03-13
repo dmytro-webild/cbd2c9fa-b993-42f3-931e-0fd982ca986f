@@ -21,7 +21,7 @@ export default function LandingPage() {
       borderRadius="pill"
       contentWidth="mediumLarge"
       sizing="largeSmall"
-      background="aurora"
+      background="circleGradient"
       cardStyle="gradient-mesh"
       primaryButtonStyle="shadow"
       secondaryButtonStyle="glass"
@@ -43,7 +43,7 @@ export default function LandingPage() {
         <HeroSplitKpi
           title="Салон красоты «Премудрая» в Ижевске"
           description="Подчеркнем вашу естественную красоту. Опытные мастера, профессиональные материалы и уютная атмосфера."
-          background={{ variant: "aurora" }}
+          background={{ variant: "plain" }}
           kpis={[
             { value: "5.0 ★", label: "211 оценок" },
             { value: "182+", label: "отзывов" },
@@ -77,23 +77,23 @@ export default function LandingPage() {
           products={[
             {
               id: "1",              brand: "Макияж",              name: "Образ невесты",              price: "6000 ₽",              rating: 5,
-              reviewCount: "48",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=u9t362&_wi=1",              imageAlt: "Свадебный макияж"
+              reviewCount: "48",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=u9t362",              imageAlt: "Свадебный макияж"
             },
             {
               id: "2",              brand: "Макияж",              name: "Экспресс сбор",              price: "4100 ₽",              rating: 5,
-              reviewCount: "32",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=u9t362&_wi=2",              imageAlt: "Экспресс макияж и укладка"
+              reviewCount: "32",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=u9t362",              imageAlt: "Экспресс макияж и укладка"
             },
             {
               id: "3",              brand: "Макияж",              name: "Вечерний макияж",              price: "2400 ₽",              rating: 5,
-              reviewCount: "25",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=u9t362&_wi=3",              imageAlt: "Вечерний макияж"
+              reviewCount: "25",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=u9t362",              imageAlt: "Вечерний макияж"
             },
             {
               id: "4",              brand: "Парикмахерские услуги",              name: "Женская стрижка",              price: "от 2000 ₽",              rating: 5,
-              reviewCount: "56",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=qobyil&_wi=1",              imageAlt: "Женская стрижка"
+              reviewCount: "56",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=qobyil",              imageAlt: "Женская стрижка"
             },
             {
               id: "5",              brand: "Парикмахерские услуги",              name: "Окрашивание",              price: "от 4300 ₽",              rating: 5,
-              reviewCount: "41",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=qobyil&_wi=2",              imageAlt: "Профессиональное окрашивание"
+              reviewCount: "41",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=qobyil",              imageAlt: "Профессиональное окрашивание"
             },
             {
               id: "6",              brand: "Ногтевой сервис",              name: "Маникюр + гель лак",              price: "2300 ₽",              rating: 5,
@@ -189,28 +189,22 @@ export default function LandingPage() {
           showRating={true}
           testimonials={[
             {
-              id: "1",              name: "Элла Кацнеллгогенн",              handle: "@ella_k",              testimonial: "Салон довольно молодой, но в нём всё продумано. Очень удобная локация и приятная атмосфера. Мастера настоящие профессионалы своего дела!",              rating: 5,
-              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=pxvt54",              imageAlt: "Элла"
+              id: "1",              name: "Элла Кацнеллгогенн",              handle: "@ella_k",              testimonial: "Салон довольно молодой, но в нём всё продумано. Очень удобная локация и приятная атмосфера. Мастера настоящие профессионалы своего дела!",              rating: 5,              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=pxvt54",              imageAlt: "Элла"
             },
             {
-              id: "2",              name: "Зарина",              handle: "@zarina_beauty",              testimonial: "Очень приятный сервис! Мастер была внимательна и создала расслабляющую атмосферу. Результат превзошел мои ожидания!",              rating: 5,
-              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=3ydx7b",              imageAlt: "Зарина"
+              id: "2",              name: "Зарина",              handle: "@zarina_beauty",              testimonial: "Очень приятный сервис! Мастер была внимательна и создала расслабляющую атмосферу. Результат превзошел мои ожидания!",              rating: 5,              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=3ydx7b",              imageAlt: "Зарина"
             },
             {
-              id: "3",              name: "Анна Мехоношина",              handle: "@anna_m",              testimonial: "Хочу выразить огромную благодарность мастеру Дарье. Настоящий профессионал своего дела. Буду приходить только сюда!",              rating: 5,
-              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=oni624",              imageAlt: "Анна"
+              id: "3",              name: "Анна Мехоношина",              handle: "@anna_m",              testimonial: "Хочу выразить огромную благодарность мастеру Дарье. Настоящий профессионал своего дела. Буду приходить только сюда!",              rating: 5,              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=oni624",              imageAlt: "Анна"
             },
             {
-              id: "4",              name: "Ульяна",              handle: "@ulyana_style",              testimonial: "Люблю этот салон! Особенно массаж у мастера Татьяны и оформление бровей. Каждый раз выходу с улыбкой!",              rating: 5,
-              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=kahcu6",              imageAlt: "Ульяна"
+              id: "4",              name: "Ульяна",              handle: "@ulyana_style",              testimonial: "Люблю этот салон! Особенно массаж у мастера Татьяны и оформление бровей. Каждый раз выходу с улыбкой!",              rating: 5,              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=kahcu6",              imageAlt: "Ульяна"
             },
             {
-              id: "5",              name: "Полина",              handle: "@polina_nails",              testimonial: "Регулярно хожу на маникюр к мастеру Томиле. Сервис и качество всегда на высоте. Рекомендую всем подругам!",              rating: 5,
-              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=ey9pqq",              imageAlt: "Полина"
+              id: "5",              name: "Полина",              handle: "@polina_nails",              testimonial: "Регулярно хожу на маникюр к мастеру Томиле. Сервис и качество всегда на высоте. Рекомендую всем подругам!",              rating: 5,              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=ey9pqq",              imageAlt: "Полина"
             },
             {
-              id: "6",              name: "Светлана",              handle: "@svetlana_salon",              testimonial: "Лучший салон в Ижевске! Профессионалы высокого уровня, приятная атмосфера, вежливый персонал. Спасибо большое!",              rating: 5,
-              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=bvhsdd",              imageAlt: "Светлана"
+              id: "6",              name: "Светлана",              handle: "@svetlana_salon",              testimonial: "Лучший салон в Ижевске! Профессионалы высокого уровня, приятная атмосфера, вежливый персонал. Спасибо большое!",              rating: 5,              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=bvhsdd",              imageAlt: "Светлана"
             }
           ]}
         />
