@@ -169,7 +169,7 @@ export default function LandingPage() {
               id: "2",              value: "Парикмахер",              title: "Стрижка и укладка",              description: "Стильная трансформация прически",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AqS3bwyik7EeqFZphOIzumak2j/uploaded-1773401656455-1lyfh3uy.jpg",              imageAlt: "Прическа до и после"
             },
             {
-              id: "3",              value: "Брови",              title: "Интерьер",              description: "Современное оборудование и уютная атмосфера",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AqS3bwyik7EeqFZphOIzumak2j/uploaded-1773401764118-t4zhrgb2.jpg",              imageAlt: "Интерьер салона"
+              id: "3",              value: "Брови",              title: "Покраска бровей",              description: "Современное оборудование и уютная атмосфера",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AqS3bwyik7EeqFZphOIzumak2j/uploaded-1773401764118-t4zhrgb2.jpg",              imageAlt: "Интерьер салона"
             },
             {
               id: "4",              value: "Массаж ",              title: "Релаксация",              description: "Зона отдыха для комфорта клиентов",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AqS3bwyik7EeqFZphOIzumak2j/uploaded-1773401799450-c7sieagq.jpg",              imageAlt: "Зона массажа и отдыха"
