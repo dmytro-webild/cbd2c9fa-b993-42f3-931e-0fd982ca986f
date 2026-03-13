@@ -16,6 +16,7 @@ export const metadata: Metadata = {
 };
 
 
+
 const trajanPro = Trajan_Pro({
   variable: "--font-trajan-pro",  subsets: ["latin"],
   weight: ["400", "700"],
