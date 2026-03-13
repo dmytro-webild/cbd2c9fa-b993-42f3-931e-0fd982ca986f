@@ -77,23 +77,23 @@ export default function LandingPage() {
           products={[
             {
               id: "1",              brand: "Макияж",              name: "Образ невесты",              price: "6000 ₽",              rating: 5,
-              reviewCount: "48",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=u9t362",              imageAlt: "Свадебный макияж"
+              reviewCount: "48",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=u9t362&_wi=1",              imageAlt: "Свадебный макияж"
             },
             {
               id: "2",              brand: "Макияж",              name: "Экспресс сбор",              price: "4100 ₽",              rating: 5,
-              reviewCount: "32",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=u9t362",              imageAlt: "Экспресс макияж и укладка"
+              reviewCount: "32",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=u9t362&_wi=2",              imageAlt: "Экспресс макияж и укладка"
             },
             {
               id: "3",              brand: "Макияж",              name: "Вечерний макияж",              price: "2400 ₽",              rating: 5,
-              reviewCount: "25",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=u9t362",              imageAlt: "Вечерний макияж"
+              reviewCount: "25",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=u9t362&_wi=3",              imageAlt: "Вечерний макияж"
             },
             {
               id: "4",              brand: "Парикмахерские услуги",              name: "Женская стрижка",              price: "от 2000 ₽",              rating: 5,
-              reviewCount: "56",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=qobyil",              imageAlt: "Женская стрижка"
+              reviewCount: "56",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=qobyil&_wi=1",              imageAlt: "Женская стрижка"
             },
             {
               id: "5",              brand: "Парикмахерские услуги",              name: "Окрашивание",              price: "от 4300 ₽",              rating: 5,
-              reviewCount: "41",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=qobyil",              imageAlt: "Профессиональное окрашивание"
+              reviewCount: "41",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=qobyil&_wi=2",              imageAlt: "Профессиональное окрашивание"
             },
             {
               id: "6",              brand: "Ногтевой сервис",              name: "Маникюр + гель лак",              price: "2300 ₽",              rating: 5,
